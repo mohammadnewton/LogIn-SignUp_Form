@@ -66,3 +66,9 @@ button:active{
 button:focus{
     outline: none;
 }
+
+button.ghost{
+    background-color: transparent;
+    border-color: #fff;
+}
+
