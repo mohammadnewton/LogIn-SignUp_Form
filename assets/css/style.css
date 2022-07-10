@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Poppins', cursive;
 }
 
 body{
@@ -22,4 +22,33 @@ body{
 h1{
     font-weight: bold;
     margin: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+
+span{
+    font-size: 12px;
+}
+
+a{
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+button{
+    border-radius: 20px;
+    border: 1px solid #ff4b2b;
+    background: #ff4b2b;
 }
