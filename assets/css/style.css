@@ -193,3 +193,20 @@ input{
     transform: translateX(0);
     transition: transform .6s ease-in-out;
 }
+
+.overlay-left{
+    transform: translateX(-20%);
+}
+
+.container.right-panel-active .overlay-left{
+    transform: translateX(0);
+}
+
+.overlay-right{
+    right: 0;
+    transform: translateX(0);
+}
+
+.container.right-panel-active .overlay-right{
+    transform: translateX(20%);
+}
